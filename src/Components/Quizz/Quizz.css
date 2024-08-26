@@ -1,0 +1,60 @@
+.container {
+    width: 440px;
+    margin: 40px auto 0 auto; /* Margin set for centering and top spacing */
+    background-color: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 150px;
+}
+
+.container hr {
+    height: 1px;
+    border: none;
+    background-color: #262626;
+}
+
+.container h2 {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container button {
+    margin: 0 auto; /* Centering the button horizontally */
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #746565;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.container .index{
+    margin: auto;
+    font-size: 18px;
+}
+.correct{
+    background: #dffff2;
+    border-color: #3f8470;
+}
+
+.wrong{
+    background: #ffEBED;
+    border-color: #FF0000;
+}
